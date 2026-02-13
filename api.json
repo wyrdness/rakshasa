@@ -1,10 +1,8 @@
 {
-  "category": "DEMON_ANGEL",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/rakshasa",
     "maintainers": [
       {
@@ -18,364 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "rakshasa",
     "name": "Rakshasa",
-    "aliases": [
-      {
-        "name": "Rakshasa",
-        "language": "Sanskrit",
-        "meaning": "Demon, evil spirit"
-      },
-      {
-        "name": "Rakshas",
-        "language": "Sanskrit",
-        "meaning": "Alternate transliteration"
-      },
-      {
-        "name": "Yakkha",
-        "language": "Pali",
-        "region": "Buddhism",
-        "meaning": "Buddhist variant"
-      }
-    ],
-    "category": "DEMON_ANGEL",
-    "subcategory": "Demon",
+    "aliases": [],
+    "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_SUPERNATURAL_BEINGS_|",
+    "subcategory": "Shape-shifter",
     "tags": [
-      "hindu",
-      "buddhist",
-      "demon",
-      "shapeshifter",
-      "mythology",
-      "india",
-      "southeast-asia",
-      "religious"
+      "folklore",
+      "mythology"
     ],
-    "status": "active-religious",
+    "status": "documented",
     "description": {
-      "summary": "Powerful demons from Hindu and Buddhist mythology, known as shape-shifters and fierce warriors. Often depicted with animal heads (tigers, elephants) and backward hands. Can be evil man-eaters or converted to good as dharma protectors.",
-      "full": "Rakshasas are powerful supernatural beings from Hindu and Buddhist traditions, primarily known as demons or evil spirits, though their nature is complex. Described as fierce warriors and powerful sorcerers, they possess the ability to shape-shift and create illusions. Typically depicted with fangs, fierce expressions, and often animal heads (particularly tigers or elephants), many are shown with distinctive backward-facing hands. In Hindu epics like the Ramayana, they serve as major antagonists—Ravana, the demon king, is a Rakshasa. However, their nature varies: some are pure evil (man-eaters and warriors of darkness), while others are neutral or can be converted to good. In Buddhism, certain Rakshasas become dharma protectors after conversion. They disturb sacrifices, eat human flesh, and serve demon kings, but can be defeated by blessed weapons, divine intervention, and holy rituals."
+      "summary": "Rakshasas are powerful supernatural beings from Hindu and Buddhist traditions, primarily known as demons or evil spirits, though their nature is complex and multifaceted.",
+      "full": "Rakshasas are powerful supernatural beings from Hindu and Buddhist traditions, primarily known as demons or evil spirits, though their nature is complex and multifaceted. Described as fierce warriors and powerful sorcerers, they possess the ability to shape-shift and create illusions. Typically depicted with fangs, fierce expressions, and often animal heads (particularly tigers or elephants), many are shown with distinctive backward-facing hands. In Hindu epics like the *Ramayana*, they serve as major antagonists—Ravana, the ten-headed demon king, is perhaps the most famous Rakshasa. However, their nature varies considerably: some are pure evil (man-eaters and warriors of darkness), while others are neutral or can even be converted to good. In Buddhism, certain Rakshasas become dharma protectors after conversion, guarding sacred spaces and teachings."
     },
     "etymology": {
-      "origin": "Sanskrit 'rakshasa' (रक्षस), from root 'raksh' meaning 'to guard' or 'to harm'",
-      "meaning": "Demon, evil spirit, injurer"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "DEMON_ANGEL",
-      "type": "Demon",
-      "subtype": "Shape-shifter",
-      "variant": "Hindu/Buddhist"
+      "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_SUPERNATURAL_BEINGS_|",
+      "type": "Shape-shifter",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "asura",
-        "name": "Asura",
-        "relationship": "related",
-        "description": "Another class of demonic beings in Hindu/Buddhist cosmology"
-      },
-      {
-        "id": "yaksha",
-        "name": "Yaksha",
-        "relationship": "related",
-        "description": "Nature spirits, sometimes overlapping with Rakshasa category"
-      },
-      {
-        "id": "djinn",
-        "name": "Djinn",
-        "relationship": "similar",
-        "description": "Islamic supernatural beings with shape-shifting abilities"
-      },
-      {
-        "id": "demons",
-        "name": "Demons (general)",
-        "relationship": "category",
-        "description": "Broader category of malevolent supernatural beings"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": [
-        {
-          "feature": "Animal heads",
-          "description": "Often depicted with tiger, elephant, or other animal heads",
-          "frequency": "common"
-        },
-        {
-          "feature": "Backward hands",
-          "description": "Distinctive feature where hands face backward",
-          "frequency": "common"
-        },
-        {
-          "feature": "Fangs",
-          "description": "Sharp teeth, predatory features",
-          "frequency": "always"
-        },
-        {
-          "feature": "Fierce expression",
-          "description": "Intimidating, wrathful appearance",
-          "frequency": "always"
-        },
-        {
-          "feature": "Muscular build",
-          "description": "Strong, warrior physique",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Powerful humanoid form with bestial or demonic features. Size varies from human to gigantic. Appearance shifts based on their shape-shifting abilities."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Can take various forms including human, animal, or monstrous",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Illusion magic",
-        "description": "Create powerful illusions and maya (deception)",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Superhuman strength",
-        "description": "Warrior capabilities beyond mortals",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Sorcery",
-        "description": "Powerful magical abilities and dark arts",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Flight",
-        "description": "Ability to fly or levitate",
-        "frequency": "occasional",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "nature": "variable",
-      "disposition": "hostile",
-      "patterns": [
-        "Disturb religious sacrifices and rituals",
-        "Consume human flesh (traditional evil Rakshasas)",
-        "Serve demon kings and evil lords",
-        "Battle against gods and heroes",
-        "Can be converted to dharma protectors (Buddhism)"
-      ],
-      "alignment_variants": [
-        {
-          "type": "Evil",
-          "description": "Man-eaters, warriors of darkness, enemies of gods"
-        },
-        {
-          "type": "Neutral",
-          "description": "Neither purely evil nor good, following own interests"
-        },
-        {
-          "type": "Converted Good",
-          "description": "Reformed Rakshasas serving as dharma protectors in Buddhism"
-        }
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Originates in Indian Hindu/Buddhist traditions, spread throughout Southeast Asia with Indian cultural influence",
-      "continents": ["Asia"],
-      "countries": ["India", "Sri Lanka", "Thailand", "Cambodia", "Indonesia", "Nepal", "Bhutan", "Myanmar"],
-      "regions": [
-        "Indian subcontinent",
-        "Southeast Asia",
-        "Himalayan regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_spread": [
-      {
-        "region": "India",
-        "significance": "Origin point, central to Hindu epics and mythology"
-      },
-      {
-        "region": "Sri Lanka",
-        "significance": "Ravana's kingdom in Ramayana, strong tradition"
-      },
-      {
-        "region": "Thailand",
-        "significance": "Yak figures in Thai Buddhist art and Ramakien epic"
-      },
-      {
-        "region": "Cambodia",
-        "significance": "Featured in Khmer art and Reamker epic"
-      },
-      {
-        "region": "Indonesia",
-        "significance": "Wayang puppet traditions and Ramayana adaptations"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1500 BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Rigveda and early Vedic texts"
-      },
-      "status": "Active religious and mythological tradition"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Vedic religion and early Hinduism. Rakshasas appear in earliest Hindu texts including the Rigveda, with their role expanding in the great epics.",
-      "earliest_accounts": "Rigveda (c. 1500 BCE) mentions Rakshasas as demonic beings",
-      "religious_context": "Central figures in Hindu cosmology and Buddhist adaptations"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "major_texts": [
-      {
-        "text": "Rigveda",
-        "date": "c. 1500 BCE",
-        "significance": "Earliest mentions of Rakshasas"
-      },
-      {
-        "text": "Ramayana",
-        "date": "c. 500-100 BCE",
-        "significance": "Ravana the Rakshasa king as primary antagonist"
-      },
-      {
-        "text": "Mahabharata",
-        "date": "c. 400 BCE - 400 CE",
-        "significance": "Various Rakshasa characters and battles"
-      },
-      {
-        "text": "Buddhist Jataka Tales",
-        "date": "Various",
-        "significance": "Buddhist interpretations and conversion stories"
-      }
-    ],
-    "notable_rakshasas": [
-      {
-        "name": "Ravana",
-        "significance": "Ten-headed demon king of Lanka, primary antagonist in Ramayana",
-        "description": "Powerful ruler, scholar, devotee of Shiva, ultimately defeated by Rama"
-      },
-      {
-        "name": "Maricha",
-        "significance": "Shapeshifter who took form of golden deer to lure Rama",
-        "description": "Uncle of Ravana, instrumental in Sita's abduction"
-      },
-      {
-        "name": "Tataka",
-        "significance": "Female Rakshasi killed by Rama",
-        "description": "Terrorized forests, Rama's first major demon-slaying"
-      },
-      {
-        "name": "Ghatotkacha",
-        "significance": "Half-Rakshasa warrior in Mahabharata",
-        "description": "Son of Bhima and Rakshasi Hidimbi, fought for Pandavas"
-      }
-    ],
-    "modern_era": "Remains active in Hindu and Buddhist religious practice and cultural traditions throughout South and Southeast Asia. Continues in temple art, religious festivals, and popular culture."
+    "timeline": []
   },
-
-  "vulnerabilities": {
-    "weaknesses": [
-      {
-        "weakness": "Blessed weapons",
-        "description": "Divine or consecrated weapons can harm or kill Rakshasas",
-        "effectiveness": "high"
-      },
-      {
-        "weakness": "Divine intervention",
-        "description": "Gods and divine beings can defeat Rakshasas",
-        "effectiveness": "high"
-      },
-      {
-        "weakness": "Holy rituals",
-        "description": "Vedic rituals and mantras can repel or harm Rakshasas",
-        "effectiveness": "medium"
-      },
-      {
-        "weakness": "Righteousness",
-        "description": "Pure dharmic warriors have advantage against them",
-        "effectiveness": "medium"
-      }
-    ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
-    "religious_significance": {
-      "hinduism": "Major category of demonic beings in Hindu cosmology. Represent adharma (unrighteousness) and obstacles to dharma. Feature prominently in epics as antagonists.",
-      "buddhism": "Yakshas/Rakshasas can be converted to serve Buddhism as dharma protectors. Some guard sacred spaces and Buddhist teachings.",
-      "role": "Represent forces of chaos, darkness, and opposition to divine order. Also demonstrate potential for redemption and conversion."
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "cultural_sensitivity": {
-      "note": "CRITICAL CULTURAL SENSITIVITY: Rakshasas are part of living Hindu and Buddhist religious traditions. These are active religious beliefs, not mere mythology.",
-      "respect_guidelines": [
-        "Treat as genuine religious tradition, not fantasy",
-        "Recognize ongoing cultural and spiritual significance",
-        "Consult Hindu and Buddhist religious scholars",
-        "Avoid appropriation or disrespectful adaptation",
-        "Understand regional variations in interpretation"
-      ]
-    },
-    "festivals_rituals": [
-      {
-        "event": "Dussehra/Vijayadashami",
-        "description": "Celebrates Rama's victory over Ravana",
-        "region": "India, Southeast Asia"
-      },
-      {
-        "event": "Ramlila",
-        "description": "Theatrical performance of Ramayana featuring Rakshasas",
-        "region": "India"
-      }
-    ],
     "popular_culture": {
-      "traditional_arts": [
-        "Temple sculptures and carvings",
-        "Classical dance-drama (Kathakali, etc.)",
-        "Shadow puppet theater (Wayang)",
-        "Traditional paintings"
-      ],
-      "modern_media": [
-        "Dungeons & Dragons (popularized in West as playable race)",
-        "Fantasy literature and games",
-        "Bollywood and regional cinema",
-        "Animated adaptations of epics"
-      ],
-      "western_adaptation_note": "D&D and Western fantasy have adapted Rakshasas, often with significant changes from original religious context. These adaptations should not be confused with authentic Hindu/Buddhist traditions."
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "ramayana",
-      "type": "religious_text",
-      "title": "Ramayana",
-      "authors": ["Valmiki"],
-      "date": "c. 500-100 BCE",
-      "note": "Primary epic featuring Rakshasas"
-    },
-    {
-      "id": "mahabharata",
-      "type": "religious_text",
-      "title": "Mahabharata",
-      "authors": ["Vyasa (traditional)"],
-      "date": "c. 400 BCE - 400 CE",
-      "note": "Epic containing Rakshasa characters"
-    },
-    {
-      "id": "hindu-mythology",
-      "type": "reference",
-      "title": "Hindu Mythology",
-      "note": "Academic references on Hindu demon classifications"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
