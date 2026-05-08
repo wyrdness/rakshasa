@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/rakshasa",
     "maintainers": [
       {
@@ -19,75 +19,154 @@
   "phenomenon": {
     "id": "rakshasa",
     "name": "Rakshasa",
-    "aliases": [],
-    "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_SUPERNATURAL_BEINGS_|",
-    "subcategory": "Shape-shifter",
+    "aliases": [
+      { "name": "Rākṣasa", "language": "Sanskrit", "region": "Indian subcontinent", "meaning": "demon, fiend, that which is to be guarded against" },
+      { "name": "Rakshasi", "language": "Sanskrit", "meaning": "female rakshasa" },
+      { "name": "Asura", "language": "Sanskrit", "meaning": "broader class of power-seeking beings, sometimes overlapping" },
+      { "name": "Nri-chakshas / Kravyad", "language": "Sanskrit", "meaning": "man-eater, flesh-eater (epithets)" },
+      { "name": "Raksasa / Raksasi", "language": "Pali", "region": "Theravada Buddhist countries" },
+      { "name": "Raksasa", "language": "Indonesian/Malay", "region": "Maritime Southeast Asia", "meaning": "giant, gigantic being" },
+      { "name": "Yaksha (sometimes conflated)", "language": "Sanskrit", "meaning": "related class of nature spirits" }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Demonic shape-shifter / man-eating spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "hindu-mythology",
+      "buddhist-mythology",
+      "shape-shifter",
+      "demon",
+      "ramayana",
+      "mahabharata",
+      "south-asia",
+      "southeast-asia",
+      "anthropophagy"
     ],
     "status": "documented",
     "description": {
-      "summary": "Rakshasas are powerful supernatural beings from Hindu and Buddhist traditions, primarily known as demons or evil spirits, though their nature is complex and multifaceted.",
-      "full": "Rakshasas are powerful supernatural beings from Hindu and Buddhist traditions, primarily known as demons or evil spirits, though their nature is complex and multifaceted. Described as fierce warriors and powerful sorcerers, they possess the ability to shape-shift and create illusions. Typically depicted with fangs, fierce expressions, and often animal heads (particularly tigers or elephants), many are shown with distinctive backward-facing hands. In Hindu epics like the *Ramayana*, they serve as major antagonists—Ravana, the ten-headed demon king, is perhaps the most famous Rakshasa. However, their nature varies considerably: some are pure evil (man-eaters and warriors of darkness), while others are neutral or can even be converted to good. In Buddhism, certain Rakshasas become dharma protectors after conversion, guarding sacred spaces and teachings."
+      "summary": "A class of powerful supernatural beings in Hindu, Buddhist, and Jain traditions, often depicted as malevolent shape-shifting demons but including morally complex and even virtuous individuals.",
+      "full": "Rakshasas (Sanskrit rākṣasa) are a class of supernatural beings in Indian religious and epic literature, prominently in the Ramayana and Mahabharata. They are commonly described as fierce, shape-shifting beings with two protruding fangs, sharp claw-like nails, flaming red eyes, and the ability to assume any form through māyā (illusion). Their characterizations span a wide moral range: man-eating warriors of darkness in many epic episodes, neutral or merely powerful beings in others, and morally virtuous figures such as Vibhīṣaṇa, the brother of Rāvaṇa who allies with Rāma. In Buddhist scripture, several rakshasas convert to the dharma and become protectors of Buddhist teachings. The tradition spread with Indic religion across South and Southeast Asia, where Indonesian and Malay raksasa came to mean simply 'giant'."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Sanskrit रक्षस् (rakṣas), connected to the verbal root rakṣ- 'to guard, protect', with the noun originally referring to that which must be guarded against.",
+      "meaning": "'Demon', 'fiend', or literally 'that which is to be warded off'.",
+      "first_use": "Attested in the Ṛgveda (c. 1500–1200 BCE) as rakṣas, denoting harmful spirits opposed by Agni and Indra."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_SUPERNATURAL_BEINGS_|",
-      "type": "Shape-shifter",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Demonic / supernatural being",
+      "subtype": "Shape-shifting man-eater",
+      "variant": "South Asian (Hindu, Buddhist, Jain) and Southeast Asian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "asura", "name": "Asura", "relationship": "related", "description": "Broader class of power-seeking beings often opposed to the devas; sometimes overlapping with rakshasas" },
+      { "id": "yaksha", "name": "Yaksha", "relationship": "related", "description": "Class of nature spirits, generally more benevolent but sometimes paired with rakshasas in epic literature" },
+      { "id": "pisacha", "name": "Pisacha", "relationship": "similar", "description": "Flesh-eating demonic beings in Hindu mythology" },
+      { "id": "vetala", "name": "Vetāla", "relationship": "related", "description": "Corpse-inhabiting spirits in Indian folklore" },
+      { "id": "raksasa-southeast-asia", "name": "Raksasa (Indonesia/Malaysia)", "relationship": "regional_variant", "description": "Semantic shift to mean 'giant' in maritime Southeast Asia" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark-skinned", "black", "blue-black", "red (in red-eyed depictions)"],
+      "features": [
+        { "feature": "Fangs", "description": "Two protruding fangs from the upper jaw, often emphasised in iconography", "frequency": "common" },
+        { "feature": "Claw-like nails", "description": "Sharp, talon-like fingernails", "frequency": "common" },
+        { "feature": "Fierce eyes", "description": "Often described as flaming or red", "frequency": "common" },
+        { "feature": "Multiple heads / arms", "description": "Notable individuals such as Rāvaṇa are described with ten heads and twenty arms", "frequency": "occasional" },
+        { "feature": "Animal-headed forms", "description": "Some depictions show tiger, elephant, donkey, or other animal heads", "frequency": "occasional" },
+        { "feature": "Gigantic stature", "description": "Often described as towering and immensely strong; the Indonesian/Malay raksasa simply means 'giant'", "frequency": "common" }
+      ],
+      "morphology": "Variable humanoid morphology with demonic and sometimes theriomorphic elements, almost always understood as capable of changing form at will via māyā."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shape-shifting (māyā)", "description": "Ability to assume the form of any creature, including beautiful humans, to deceive or attack", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Flight", "description": "Many rakshasas, including Rāvaṇa with his vimāna (Puṣpaka), are described as capable of flight", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Invisibility", "description": "Can vanish from sight at will", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Magical sorcery", "description": "Wield potent illusion-magic, weapons granted by ascetic boons, and battlefield enchantments", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Size change", "description": "Can grow or shrink at will", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Anthropophagy", "description": "Many rakshasas are described as man-eaters, particularly active at night and in cremation grounds", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["forests", "wilderness", "cremation grounds", "ruins", "mountains", "Lankā (in epic geography)"],
+      "diet": "Often described as meat- and human-flesh-eating; some are vegetarian ascetics",
+      "patterns": [
+        "Particularly active at night and at twilight",
+        "Disrupt sacrifices (yajñas) of sages",
+        "Engage in shape-changing deception of travellers",
+        "Some perform extreme tapas (asceticism) to win boons from gods",
+        "Form kingdoms, dynasties, and armies in epic narrative"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Rakshasa traditions span the entire Indic cultural sphere: South Asia (India, Nepal, Sri Lanka, Bangladesh), Buddhist East Asia by way of scripture, and Southeast Asia where the loanword 'raksasa' is widely used.",
+      "continents": ["Asia"],
+      "countries": ["India", "Nepal", "Sri Lanka", "Bangladesh", "Indonesia", "Malaysia", "Thailand", "Cambodia", "Myanmar"],
+      "regions": ["Indian subcontinent", "Maritime Southeast Asia", "Mainland Southeast Asia", "Buddhist East Asia"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lankā",
+        "location": {
+          "description": "Mythic island kingdom of Rāvaṇa, traditionally identified with Sri Lanka",
+          "country": "Sri Lanka",
+          "region": "Indian Ocean"
+        },
+        "peak_period": "Ramayana setting (mythic)",
+        "notes": "In the Vālmīki Rāmāyaṇa, Lankā is the seat of Rāvaṇa's rakshasa kingdom"
+      },
+      {
+        "name": "Daṇḍakāraṇya",
+        "location": {
+          "description": "Vast forest of central India where Rāma and Sītā encountered numerous rakshasas",
+          "country": "India",
+          "region": "Central India"
+        },
+        "peak_period": "Ramayana setting (mythic)",
+        "notes": "Setting of multiple rakshasa encounters in the Araṇyakāṇḍa"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1500-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Ṛgveda references to rakṣas (c. 1500–1200 BCE)"
+      },
+      "peak_activity_periods": [
+        { "period": "c. 5th century BCE – 4th century CE", "description": "Composition and redaction of the Sanskrit epics Ramayana and Mahabharata, where rakshasas are central antagonists" },
+        { "period": "1st millennium CE", "description": "Diffusion of rakshasa motifs through Buddhist canon (e.g. Lotus Sūtra) into East and Southeast Asia" }
+      ],
+      "seasonal_patterns": "Folkloric rakshasas are particularly associated with night, the dark fortnight of the lunar month, and the liminal period of twilight (saṃdhyā)."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Vedic religion of the Indo-Aryan-speaking peoples of the second millennium BCE, where rakṣas appear as harmful spirits opposed by ritual fire (Agni) and the gods.",
+      "earliest_accounts": "Ṛgveda hymns invoking protection against rakṣas; later expansion in the Atharvaveda and Brāhmaṇas. The fully developed rakshasa as character class appears in the Mahābhārata and Rāmāyaṇa.",
+      "folklore_connections": "Within India, related to asuras, yakshas, piśācas, and vetālas; in Buddhist transmission becomes part of the demonology of texts such as the Lotus Sūtra; in Southeast Asia, the Sanskrit loanword raksasa enters Indonesian and Malay literatures, often denoting giants."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 1500–1200 BCE", "event": "Earliest references to rakṣas as harmful spirits in the Ṛgveda", "significance": "Foundational Vedic stratum of the concept", "source": "Ṛgveda" },
+      { "date": "c. 5th century BCE – 4th century CE", "event": "Composition and redaction of the Mahābhārata, including rakshasa figures such as Hiḍimba, Bakāsura, and Ghatotkaca", "significance": "Rakshasas as fully developed epic characters", "source": "Mahābhārata" },
+      { "date": "c. 5th century BCE – 3rd century CE", "event": "Composition of the Vālmīki Rāmāyaṇa, with Rāvaṇa and the rakshasas of Lankā as principal antagonists", "significance": "Establishes the canonical narrative of rakshasa kingdom", "source": "Rāmāyaṇa" },
+      { "date": "c. 1st century BCE – 1st century CE", "event": "Lotus Sūtra (Saddharma Puṇḍarīka) and other Mahāyāna scriptures depict rakṣasīs as dharma-protectors after conversion", "significance": "Buddhist reframing of rakshasas as potential protectors", "source": "Lotus Sūtra, chapter 26" },
+      { "date": "c. 1000 CE", "event": "Indic loanword raksasa fully established in Old Javanese and Malay literatures with sense 'giant'", "significance": "Southeast Asian semantic shift", "source": "Old Javanese kakawin literature" }
+    ],
+    "modern_era": "Rakshasas remain a vivid presence in South and Southeast Asian visual culture, performance traditions (kathakali, wayang, Ramlila, Khon), comics (Amar Chitra Katha), film, television (the long-running Ramayana and Mahabharat television serials), and global popular culture, where the term is sometimes adopted into fantasy gaming (e.g. Dungeons & Dragons) with significant departures from the source tradition."
   },
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Pre-historic", "latest": "Mythological" }
     },
     "notable": [],
     "database_path": "./sightings/"
@@ -97,30 +176,119 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "rakshasa-evidence-ramayana",
+        "type": "scriptural text",
+        "name": "Vālmīki Rāmāyaṇa",
+        "description": "Sanskrit epic in seven books containing the most extensive single literary corpus of rakshasa narrative, including the figures of Rāvaṇa, Kumbhakarṇa, Indrajit, Vibhīṣaṇa, Sūrpaṇakhā, Mārīca, and others.",
+        "status": "verified",
+        "analysis": "Foundational source for all later rakshasa imagery in South and Southeast Asia.",
+        "source": "Vālmīki, Rāmāyaṇa (critical edition, Baroda, 1960–1975)"
+      },
+      {
+        "id": "rakshasa-evidence-mahabharata",
+        "type": "scriptural text",
+        "name": "Mahābhārata",
+        "description": "Sanskrit epic preserving rakshasa narratives including Hiḍimba, Hiḍimbā, Ghatotkaca, Bakāsura, Kirmīra, and Jaṭāsura.",
+        "status": "verified",
+        "analysis": "Major source for the moral complexity of rakshasa figures (e.g. Ghatotkaca's heroism on the Pāṇḍava side).",
+        "source": "Vyāsa, Mahābhārata (Bhandarkar Oriental Research Institute critical edition, 1933–1966)"
+      }
+    ]
   },
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Indo-European demonology hypothesis",
+        "description": "Vedic rakṣas belongs to a wider Indo-European pattern of named harmful spirits (cf. Avestan druj-) opposed by ritual fire and divine order; the rakshasa later accretes epic and Puranic motifs.",
+        "proponents": ["Stanley Insler", "Wendy Doniger"],
+        "evidence_cited": ["Comparative Indo-Iranian etymology", "Parallel structures in Vedic and Avestan demonology"]
+      },
+      {
+        "name": "Anthropological / 'othering' hypothesis",
+        "description": "The rakshasa class historically encoded the Vedic-Aryan religious community's depiction of non-Vedic peoples and rival ritual orders as demonic outsiders.",
+        "proponents": ["Romila Thapar", "Sheldon Pollock"],
+        "evidence_cited": ["Geographic placement of rakshasa kingdoms in the south and forest", "Association with disrupted sacrifices"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Pure mythological / literary phenomenon",
+        "description": "Rakshasas are religious-literary figures with no claim to physical existence; they belong to mythology, ritual, and literature rather than zoology or parapsychology.",
+        "proponents": ["Mainstream Indological consensus"],
+        "evidence_cited": ["Exclusively textual and iconographic attestation", "Absence of any modern sighting tradition"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Vedic ritual demonology (Ṛgveda, Atharvaveda)",
+        "Sanskrit epic tradition (Rāmāyaṇa, Mahābhārata)",
+        "Purāṇic and Tantric literature",
+        "Buddhist canonical demonology (Pāli and Mahāyāna)",
+        "Old Javanese and Malay kakawin and hikayat traditions"
+      ],
+      "stories": [
+        "Rāvaṇa's abduction of Sītā and the war at Lankā",
+        "Bhīma's encounter with Hiḍimba and marriage to Hiḍimbā",
+        "Bakāsura terrorising Ekacakrā until killed by Bhīma",
+        "Vibhīṣaṇa's defection from Rāvaṇa to Rāma",
+        "The conversion of rakshasas as protectors of the Lotus Sūtra"
+      ],
+      "beliefs": "In classical Hindu cosmology, rakshasas are real ontological beings within a tiered cosmos that includes devas, asuras, yakshas, gandharvas, and other classes. Folk belief in many regions has historically associated misfortune at night with rakshasa-like spirits, addressed through mantra, amulet, and ritual."
+    },
+    "indigenous": {
+      "cultures": ["Vedic-Brahmanical", "Buddhist (Theravāda and Mahāyāna)", "Jain", "Javanese", "Balinese", "Malay", "Khmer", "Thai"],
+      "significance": "Rakshasas occupy a serious religious and cosmological role in living Hindu, Buddhist, and Jain traditions; they are not merely 'monsters' but ontological persons within those cosmologies.",
+      "sensitivity_note": "Treat rakshasas as figures within living religious traditions, not as generic horror-fantasy creatures. Recognise the ethical complexity of figures like Vibhīṣaṇa and Ghatotkaca.",
+      "respect_guidelines": "When discussing rakshasas in religious context, attribute to specific texts and traditions rather than generalising; acknowledge regional variants (Indonesian/Malay raksasa) on their own terms."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Vālmīki, Rāmāyaṇa",
+        "Vyāsa, Mahābhārata",
+        "Lotus Sūtra (Saddharma Puṇḍarīka)",
+        "Amar Chitra Katha comics (1960s–present)",
+        "Ashok K. Banker, Ramayana series (2003–2007)"
+      ],
+      "film_tv": [
+        "Ramayan (Ramanand Sagar, Doordarshan, 1987–1988)",
+        "Mahabharat (B. R. Chopra, Doordarshan, 1988–1990)",
+        "Adipurush (2023)",
+        "Ramayana: The Legend of Prince Rama (1992 anime film)"
+      ],
+      "games": [
+        "Dungeons & Dragons — 'rakshasa' monster entry from 1975 onwards (with substantial departure from tradition)",
+        "Magic: The Gathering — Khans of Tarkir Sultai rakshasas (2014)"
+      ],
+      "music": [],
+      "other": [
+        "Wayang kulit and wayang wong (Indonesia) featuring Rāvaṇa as Rahwana",
+        "Khon masked dance (Thailand) with rakshasa characters from the Ramakien",
+        "Kathakali and Yakshagana performance traditions"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Wendy Doniger", "affiliation": "University of Chicago (history of religions)", "contribution": "Studies of Hindu mythology including rakshasa narratives", "period": "1968–present" },
+      { "name": "Robert P. Goldman", "affiliation": "University of California, Berkeley", "contribution": "General editor of the Princeton translation of the Vālmīki Rāmāyaṇa", "period": "1984–present" },
+      { "name": "Sheldon Pollock", "affiliation": "Columbia University", "contribution": "Translator of Rāmāyaṇa Book III (Araṇyakāṇḍa) and theorist of Sanskrit cosmopolis", "period": "1986–present" }
+    ],
+    "organizations": [
+      { "name": "Bhandarkar Oriental Research Institute", "url": "https://bori.ac.in", "focus": "Critical editions of Sanskrit epics including the Mahābhārata" },
+      { "name": "Oriental Institute, Vadodara", "url": "https://orientalinstitute.msubaroda.ac.in", "focus": "Critical edition of the Vālmīki Rāmāyaṇa" }
+    ],
+    "ongoing_studies": "Active scholarship in Sanskrit philology, comparative religion, and Southeast Asian Indology continues to study rakshasa narratives, including their reception in Buddhist, Jain, and Southeast Asian literatures."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-rakshasa", "type": "website", "title": "Rakshasa", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rakshasa", "accessed": "2026-05-07" },
+    { "id": "goldman-ramayana", "type": "book", "title": "The Rāmāyaṇa of Vālmīki: An Epic of Ancient India (Princeton translation, 7 vols.)", "authors": ["Robert P. Goldman", "Sally J. Sutherland Goldman", "Sheldon I. Pollock", "Rosalind Lefeber", "Barend A. van Nooten"], "publication": "Princeton University Press", "date": "1984-2017" },
+    { "id": "doniger-hindus", "type": "book", "title": "The Hindus: An Alternative History", "authors": ["Wendy Doniger"], "publication": "Penguin Press", "date": "2009", "isbn": "978-1594202056" },
+    { "id": "bori-mahabharata", "type": "book", "title": "The Mahābhārata (Critical Edition)", "authors": ["V. S. Sukthankar (general editor)"], "publication": "Bhandarkar Oriental Research Institute", "date": "1933-1966" }
+  ]
 }
